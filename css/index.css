@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+    /*font-size: 0.875em;
+    line-height: 1.6em;*/
+    position: relative;
+}
+body>#main-body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+header {
+    background-color: rgb(136,14,21);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    font-size: 4rem;
+    color: rgb(228,223,203);
+    padding-left: 10px;
+}
+h2, legend {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(136,14,21);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border:3px solid rgb(136,14,21);
+    padding:50px;
+    text-align: center;
+}
+input, textarea {
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+input[type="submit"] {
+    color: rgb(228,223,203);
+    background-color: rgb(136,14,21);
+    width: 60%;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(220,98,31,0.7);
+}
+#name-company {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+#label {
+    height: 100px;
+}
+#call-me {
+    text-align: center;
+    color: rgb(228,223,203);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+#call-me > div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container-parent {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container-child {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(100,100,100,0.8);
+}
+.project-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container-child > a > img {
+    width: 100%;
+    
+}
+.project-name {
+    background-color: rgb(136,14,21);
+    color: rgb(228,223,203);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.project-name > p {
+    font-size: 20px;
+}
+.icon>img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+}
+#myCarousel {
+    width: 70%;
+    margin: 0 auto;
+}
+#contacts {
+    display: flex;
+    height: 340px;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#telephone {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#map {
+    width: 50%;
+    height: 300px;
+}
+iframe{
+    width:100%;
+    height:100%;
+}
+#about-us {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#call-back {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+footer {
+    background-color: rgb(136,14,21);
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(228,223,203);
+    text-align: center;
+    padding: 5px;
+}
+body::after {
+    content: "";
+    background-image: url(../img/background/background-4.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+input:hover {
+    background-color: rgb(136,14,21);
+}
+textarea:hover {
+    background-color: rgb(136,14,21);
+}
+input[type="submit"]:hover {
+    background-color: rgb(228,223,203);
+    color: rgb(136,14,21);
+}
+.anchor p {
+    font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(228,223,203);
+    color: rgb(136,14,21);
+}
+.anchor p:hover {
+    background-color: rgb(205,153,140);
+}
+
+.banners a img {
+opacity:1.0; -moz-opacity:1.0;
+filter:alpha(opacity=100);
+}
+.banners a:hover img {
+opacity:0.8; -moz-opacity:0.8;
+filter:alpha(opacity=80);
+}
